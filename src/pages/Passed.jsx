@@ -71,7 +71,7 @@ const Passed = ({ dataList }) => {
           링크
           <br />
           <br />
-          3월 7일(금) 오후 15:00까지 <br />
+          3월 5일(수) 오후 15:00까지 <br />
           디스코드에 들어와주세요! <br />
           <br />
           3월 9일(일) 동덕 멋사 OT에서 만나요! <br />
@@ -83,6 +83,13 @@ const Passed = ({ dataList }) => {
           부탁드립니다.
         </P.Not>
       </P.Background>
+      <P.Letter2>
+        <img
+          id="letter"
+          src={`${process.env.PUBLIC_URL}/images/Letter2.svg`}
+          alt="편지지"
+        />
+      </P.Letter2>
       <P.Letter>
         <img
           id="letter"

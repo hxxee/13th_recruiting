@@ -107,6 +107,7 @@ export const Name = styled.div`
 
   #is {
     margin-left: 2px;
+    padding-bottom: 3px;
     color: var(--1, #320613);
     text-align: center;
     font-family: "Pretendard Variable";
@@ -143,15 +144,32 @@ export const Not = styled.div`
 `;
 
 export const Letter = styled.div`
-  width: 356px;
-  height: 214px;
+  width: 355px;
+  height: 182px;
   flex-shrink: 0;
   filter: drop-shadow(0px 0px 20px #fff);
   position: absolute;
-  bottom: 18px; /* 🔥 배경 아래쪽으로 이동 */
+  bottom: 25px; /* 🔥 배경 아래쪽으로 이동 */
   left: 50%;
   transform: translateX(-50%); /* 가로 중앙 정렬 */
   z-index: 1; /* 🔥 입력 박스보다 위에 오도록 조정 */
+`;
+
+export const Letter2 = styled.div`
+  width: 355.5px;
+  height: 33px;
+  flex-shrink: 0;
+  filter: drop-shadow(0px 0px 20px #fff);
+  position: absolute;
+  bottom: 200px; /* 🔥 배경 아래쪽으로 이동 */
+  left: 50%;
+  transform: translateX(-50%); /* 가로 중앙 정렬 */
+  z-index: 1; /* 🔥 입력 박스보다 위에 오도록 조정 */
+
+  img {
+    height: 33px;
+    flex-shrink: 0;
+  }
 `;
 
 export const Letter1 = styled.div`
@@ -160,9 +178,14 @@ export const Letter1 = styled.div`
   flex-shrink: 0;
   //   filter: drop-shadow(0px 0px 20px #fff);
   position: absolute;
-  bottom: 50px; /* 🔥 배경 아래쪽으로 이동 */
+  bottom: 25px; /* 🔥 배경 아래쪽으로 이동 */
   left: 50%;
   transform: translateX(-50%); /* 가로 중앙 정렬 */
   z-index: 1; /* 🔥 입력 박스보다 위에 오도록 조정 */
   padding: 0;
+
+  img {
+    width: 355px;
+    height: 102px;
+  }
 `;

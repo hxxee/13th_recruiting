@@ -102,7 +102,7 @@ export const Name = styled.div`
     flex-shrink: 0;
     border-radius: 5px;
     border: 1px solid var(--1, #7f1833);
-    color: #888787;
+    color: black;
     font-family: "Pretendard Variable";
     font-size: 15px;
     font-style: normal;
@@ -112,6 +112,16 @@ export const Name = styled.div`
     padding-left: 14px;
     background: transparent;
     outline: none; /* 포커스 시 기본 테두리 제거 */
+  }
+
+  input::placeholder {
+    color: #888787;
+    font-family: "Pretendard Variable";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.5px;
   }
 `;
 
@@ -139,7 +149,7 @@ export const Number = styled.div`
     flex-shrink: 0;
     border-radius: 5px;
     border: 1px solid var(--1, #7f1833);
-    color: #888787;
+    color: black;
     font-family: "Pretendard Variable";
     font-size: 15px;
     font-style: normal;
@@ -149,6 +159,16 @@ export const Number = styled.div`
     padding-left: 14px;
     background: transparent;
     outline: none; /* 포커스 시 기본 테두리 제거 */
+  }
+
+  input::placeholder {
+    color: #888787;
+    font-family: "Pretendard Variable";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.5px;
   }
 `;
 
@@ -176,7 +196,7 @@ export const Phone = styled.div`
     flex-shrink: 0;
     border-radius: 5px;
     border: 1px solid var(--1, #7f1833);
-    color: #888787;
+    color: black;
     font-family: "Pretendard Variable";
     font-size: 15px;
     font-style: normal;
@@ -186,6 +206,16 @@ export const Phone = styled.div`
     padding-left: 14px;
     background: transparent;
     outline: none; /* 포커스 시 기본 테두리 제거 */
+  }
+
+  input::placeholder {
+    color: #888787;
+    font-family: "Pretendard Variable";
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.5px;
   }
 `;
 
@@ -214,27 +244,49 @@ export const Go = styled.div`
   }
 `;
 
-export const Letter = styled.div`
-  width: 356px;
-  height: 214px;
+export const Letter2 = styled.div`
+  width: 355.5px;
+  height: 33px;
   flex-shrink: 0;
   filter: drop-shadow(0px 0px 20px #fff);
   position: absolute;
-  bottom: 18px; /* 🔥 배경 아래쪽으로 이동 */
+  bottom: 200px; /* 🔥 배경 아래쪽으로 이동 */
+  left: 50%;
+  transform: translateX(-50%); /* 가로 중앙 정렬 */
+  z-index: 1; /* 🔥 입력 박스보다 위에 오도록 조정 */
+
+  img {
+    height: 33px;
+    flex-shrink: 0;
+  }
+`;
+
+export const Letter = styled.div`
+  width: 355px;
+  height: 182px;
+  flex-shrink: 0;
+  filter: drop-shadow(0px 0px 20px #fff);
+  position: absolute;
+  bottom: 25px; /* 🔥 배경 아래쪽으로 이동 */
   left: 50%;
   transform: translateX(-50%); /* 가로 중앙 정렬 */
   z-index: 1; /* 🔥 입력 박스보다 위에 오도록 조정 */
 `;
 
 export const Letter1 = styled.div`
-  width: 356px;
+  width: 353px;
   height: 102px;
   flex-shrink: 0;
   //   filter: drop-shadow(0px 0px 20px #fff);
   position: absolute;
-  bottom: 50px; /* 🔥 배경 아래쪽으로 이동 */
+  bottom: 25px; /* 🔥 배경 아래쪽으로 이동 */
   left: 50%;
   transform: translateX(-50%); /* 가로 중앙 정렬 */
   z-index: 1; /* 🔥 입력 박스보다 위에 오도록 조정 */
   padding: 0;
+
+  img {
+    width: 353px;
+    height: 102px;
+  }
 `;

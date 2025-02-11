@@ -10,6 +10,28 @@ const Main = ({ dataList }) => {
   const [number, setNumber] = useState("");
   const [phone, setPhone] = useState("");
 
+  const formatPhoneNumber = (value) => {
+    // 숫자만 남기기
+    const numbers = value.replace(/\D/g, "");
+
+    // 010-0000-0000 형식으로 변환
+    if (numbers.length <= 3) {
+      return numbers;
+    } else if (numbers.length <= 7) {
+      return `${numbers.slice(0, 3)}-${numbers.slice(3)}`;
+    } else {
+      return `${numbers.slice(0, 3)}-${numbers.slice(3, 7)}-${numbers.slice(
+        7,
+        11
+      )}`;
+    }
+  };
+
+  const handlePhoneChange = (e) => {
+    const formatted = formatPhoneNumber(e.target.value);
+    setPhone(formatted);
+  };
+
   // 🔥 조회 버튼 클릭 시 실행되는 함수
   const handleSearch = () => {
     // 입력된 값과 data.json 데이터 비교
@@ -74,7 +96,8 @@ const Main = ({ dataList }) => {
               type="text"
               placeholder="010-0000-0000"
               value={phone}
-              onChange={(e) => setPhone(e.target.value)} // 🔥 입력값 저장
+              onChange={handlePhoneChange} // 🔥 자동으로 '-' 추가
+              maxLength="13" // 010-0000-0000 기준 최대 길이 설정
             />
           </M.Phone>
           <M.Go onClick={handleSearch}>
@@ -84,6 +107,13 @@ const Main = ({ dataList }) => {
           </M.Go>
         </M.Input>
       </M.Background>
+      <M.Letter2>
+        <img
+          id="letter"
+          src={`${process.env.PUBLIC_URL}/images/Letter2.svg`}
+          alt="편지지"
+        />
+      </M.Letter2>
       <M.Letter>
         <img
           id="letter"

@@ -55,6 +55,13 @@ const Fail = ({ dataList }) => {
           동덕여대 멋쟁이사자처럼 13기 운영진 드림
         </F.Content>
       </F.Background>
+      <F.Letter2>
+        <img
+          id="letter"
+          src={`${process.env.PUBLIC_URL}/images/Letter2.svg`}
+          alt="편지지"
+        />
+      </F.Letter2>
       <F.Letter>
         <img
           id="letter"
