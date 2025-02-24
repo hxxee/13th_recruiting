@@ -68,10 +68,17 @@ const Passed = ({ dataList }) => {
           자세한 사항은 discord를 통해 안내드리겠습니다.
           <br />
           <br />
-          링크
+          {/* 링크를 클릭할 수 있게 변경 */}
+          <a
+            href="https://discord.gg/5hEvnHv4"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            https://discord.gg/5hEvnHv4
+          </a>
           <br />
           <br />
-          3월 5일(수) 오후 15:00까지 <br />
+          2월 27일(목) 오후 15:00까지 <br />
           디스코드에 들어와주세요! <br />
           <br />
           3월 9일(일) 동덕 멋사 OT에서 만나요! <br />
