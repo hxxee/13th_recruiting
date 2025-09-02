@@ -4,10 +4,10 @@ import * as P from "../styles/StyledPassed";
 import Confetti from "react-confetti";
 
 const Passed = ({ dataList }) => {
-  const { Id } = useParams(); 
+  const { Id } = useParams();
   const [showConfetti, setShowConfetti] = useState(true);
   const [windowSize, setWindowSize] = useState({
-    width: document.body.clientWidth, 
+    width: document.body.clientWidth,
     height: window.innerHeight,
   });
 
@@ -71,13 +71,13 @@ const Passed = ({ dataList }) => {
             rel="noopener noreferrer"
           >
             https://docs.google.com/forms
-            </a>
+          </a>
           <br />
           <br />
           9월 12일(금) 오후 23:59까지 <br />
           작성해주세요! <br />
           <br />
-          11월 12일(수) 간지톤에서 만나요! <br />
+          11월 22일(토) 간지톤에서 만나요! <br />
           *간지톤 장소 추후 안내 예정
         </P.Content>
         {/* <P.Not>
