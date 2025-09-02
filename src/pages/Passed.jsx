@@ -1,21 +1,19 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import * as P from "../styles/StyledPassed";
-import Confetti from "react-confetti"; // ✅ 추가된 부분
+import Confetti from "react-confetti";
 
 const Passed = ({ dataList }) => {
-  const { Id } = useParams(); // 🔥 URL에서 Id 가져오기
+  const { Id } = useParams(); 
   const [showConfetti, setShowConfetti] = useState(true);
   const [windowSize, setWindowSize] = useState({
-    width: document.body.clientWidth, // ✅ width를 화면 크기에 맞춤
+    width: document.body.clientWidth, 
     height: window.innerHeight,
   });
 
   useEffect(() => {
-    // 🔥 5초 후에 Confetti 제거
     setTimeout(() => setShowConfetti(false), 5000);
 
-    // 🔥 화면 크기 변경 감지하여 Confetti 크기 조정
     const handleResize = () => {
       setWindowSize({
         width: document.body.clientWidth,
@@ -31,7 +29,6 @@ const Passed = ({ dataList }) => {
 
   return (
     <P.Container>
-      {/* 🎉 Confetti를 Container 내부에 제한 */}
       {showConfetti && (
         <P.ConfettiWrapper>
           <Confetti width={windowSize.width} height={windowSize.height} />
@@ -62,33 +59,32 @@ const Passed = ({ dataList }) => {
           <div id="is">은</div>
         </P.Name>
         <P.Content>
-          동덕여대 멋사 13기에 최종합격 하셨습니다 🥳
+          동덕여대 멋사 14기 운영진에 최종합격 하셨습니다 🥳
           <br />
-          긴 선발 과정에 참여하시느라 고생 많으셨습니다. <br />
-          자세한 사항은 discord를 통해 안내드리겠습니다.
+          프론트 세션 과정에 참여하시느라 고생 많으셨습니다. <br />
+          자세한 사항은 구글 폼을 통해 안내드리겠습니다.
           <br />
           <br />
-          {/* 링크를 클릭할 수 있게 변경 */}
           <a
-            href="https://discord.gg/5hEvnHv4"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeLDGP2ussQtthzsPPFH2LJLwfFENPoJY0FrLy6WmkTfsPKXQ/viewform?usp=sharing&ouid=106601036526044914289"
             target="_blank"
             rel="noopener noreferrer"
           >
-            https://discord.gg/5hEvnHv4
-          </a>
+            https://docs.google.com/forms
+            </a>
           <br />
           <br />
-          2월 27일(목) 오후 15:00까지 <br />
-          디스코드에 들어와주세요! <br />
+          9월 12일(금) 오후 23:59까지 <br />
+          작성해주세요! <br />
           <br />
-          3월 9일(일) 동덕 멋사 OT에서 만나요! <br />
-          *OT장소 추후 안내 예정
+          11월 12일(수) 간지톤에서 만나요! <br />
+          *간지톤 장소 추후 안내 예정
         </P.Content>
-        <P.Not>
+        {/* <P.Not>
           멋쟁이사자처럼 13기 아기사자 미등록 예정자는 <br />
           1차 합격 안내 연락처로 개별 연락 <br />
           부탁드립니다.
-        </P.Not>
+        </P.Not> */}
       </P.Background>
       <P.Letter2>
         <img

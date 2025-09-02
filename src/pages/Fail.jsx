@@ -2,10 +2,9 @@ import React from "react";
 import { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import * as F from "../styles/StyledFail";
-// import axios from "axios";
 
 const Fail = ({ dataList }) => {
-  const { Id } = useParams(); // 🔥 URL에서 Id 가져오기
+  const { Id } = useParams(); 
 
   const post = Id ? dataList.find((item) => item.Id === parseInt(Id)) : null;
 

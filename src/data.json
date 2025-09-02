@@ -1,104 +1,6 @@
 [
   {
     "Result": "check2",
-    "Id": 1,
-    "Name": "가유빈",
-    "Number": "20220740",
-    "Phone": "010-4899-0631"
-  },
-  {
-    "Result": "check2",
-    "Id": 2,
-    "Name": "이주연",
-    "Number": "20230820",
-    "Phone": "010-8697-6024"
-  },
-  {
-    "Result": "check1",
-    "Id": 3,
-    "Name": "고소영",
-    "Number": "20230767",
-    "Phone": "010-8488-9796"
-  },
-  {
-    "Result": "check2",
-    "Id": 4,
-    "Name": "전수연",
-    "Number": "20210811",
-    "Phone": "010-6424-7667"
-  },
-  {
-    "Result": "check2",
-    "Id": 5,
-    "Name": "김소망",
-    "Number": "20210757",
-    "Phone": "010-2246-3858"
-  },
-  {
-    "Result": "check2",
-    "Id": 6,
-    "Name": "신해진",
-    "Number": "20220779",
-    "Phone": "010-4879-2938"
-  },
-  {
-    "Result": "check1",
-    "Id": 7,
-    "Name": "김민기",
-    "Number": "20221570",
-    "Phone": "010-2031-2047"
-  },
-  {
-    "Result": "check1",
-    "Id": 8,
-    "Name": "김다혜",
-    "Number": "20200947",
-    "Phone": "010-3633-9841"
-  },
-  {
-    "Result": "check1",
-    "Id": 9,
-    "Name": "송지은",
-    "Number": "20241641",
-    "Phone": "010-3315-1795"
-  },
-  {
-    "Result": "check1",
-    "Id": 10,
-    "Name": "이지영",
-    "Number": "20230821",
-    "Phone": "010-2239-2807"
-  },
-  {
-    "Result": "check1",
-    "Id": 11,
-    "Name": "김서윤",
-    "Number": "20230779",
-    "Phone": "010-2946-9645"
-  },
-  {
-    "Result": "check2",
-    "Id": 12,
-    "Name": "신희진",
-    "Number": "20220834",
-    "Phone": "010-5772-0063"
-  },
-  {
-    "Result": "check2",
-    "Id": 13,
-    "Name": "최이주",
-    "Number": "20230879",
-    "Phone": "010-3302-8437"
-  },
-  {
-    "Result": "check2",
-    "Id": 14,
-    "Name": "류연경",
-    "Number": "20200966",
-    "Phone": "010-5859-2814"
-  },
-  {
-    "Result": "check2",
     "Id": 15,
     "Name": "박민지",
     "Number": "20230014",
@@ -106,13 +8,6 @@
   },
   {
     "Result": "check2",
-    "Id": 16,
-    "Name": "신유주",
-    "Number": "20220777",
-    "Phone": "010-2574-7839"
-  },
-  {
-    "Result": "check1",
     "Id": 17,
     "Name": "임하연",
     "Number": "20230823",
@@ -126,32 +21,11 @@
     "Phone": "010-6682-5721"
   },
   {
-    "Result": "check1",
-    "Id": 19,
-    "Name": "전유지",
-    "Number": "20221640",
-    "Phone": "010-9052-0057"
-  },
-  {
-    "Result": "check1",
-    "Id": 20,
-    "Name": "전영은",
-    "Number": "20221592",
-    "Phone": "010-6278-4092"
-  },
-  {
     "Result": "check2",
     "Id": 21,
     "Name": "박슬기",
     "Number": "20221881",
     "Phone": "010-5280-6346"
-  },
-  {
-    "Result": "check1",
-    "Id": 22,
-    "Name": "문설빈",
-    "Number": "20201345",
-    "Phone": "010-2776-0104"
   },
   {
     "Result": "check2",
@@ -168,41 +42,6 @@
     "Phone": "010-8719-9855"
   },
   {
-    "Result": "check1",
-    "Id": 25,
-    "Name": "손민별",
-    "Number": "20231580",
-    "Phone": "010-7191-9253"
-  },
-  {
-    "Result": "check2",
-    "Id": 26,
-    "Name": "성유진",
-    "Number": "20231579",
-    "Phone": "010-4683-2529"
-  },
-  {
-    "Result": "check1",
-    "Id": 27,
-    "Name": "황다연",
-    "Number": "20221827",
-    "Phone": "010-6575-2154"
-  },
-  {
-    "Result": "check1",
-    "Id": 28,
-    "Name": "서정현",
-    "Number": "20220770",
-    "Phone": "010-6786-0508"
-  },
-  {
-    "Result": "check1",
-    "Id": 29,
-    "Name": "임서진",
-    "Number": "20240154",
-    "Phone": "010-7184-7494"
-  },
-  {
     "Result": "check2",
     "Id": 30,
     "Name": "송이림",
@@ -210,52 +49,17 @@
     "Phone": "010-2668-1546"
   },
   {
-    "Result": "check1",
+    "Result": "check2",
     "Id": 31,
-    "Name": "권윤진",
-    "Number": "20231752",
-    "Phone": "010-4263-2786"
+    "Name": "남지연",
+    "Number": "20230790",
+    "Phone": "010-2662-5447"
   },
   {
-    "Result": "check2",
+    "Result": "check1",
     "Id": 32,
-    "Name": "유효민",
-    "Number": "20220994",
-    "Phone": "010-8835-6670"
-  },
-  {
-    "Result": "check2",
-    "Id": 33,
-    "Name": "이정음",
-    "Number": "20231590",
-    "Phone": "010-9926-5731"
-  },
-  {
-    "Result": "check1",
-    "Id": 34,
-    "Name": "권유진",
-    "Number": "20211189",
-    "Phone": "010-3013-1743"
-  },
-  {
-    "Result": "check1",
-    "Id": 35,
-    "Name": "김은결",
-    "Number": "20231570",
-    "Phone": "010-6314-4135"
-  },
-  {
-    "Result": "check2",
-    "Id": 36,
-    "Name": "손예원",
-    "Number": "20240468",
-    "Phone": "010-4038-4489"
-  },
-  {
-    "Result": "check2",
-    "Id": 37,
-    "Name": "장수경",
-    "Number": "20231554",
-    "Phone": "010-2110-5198"
+    "Name": "김멋사",
+    "Number": "20250000",
+    "Phone": "010-1234-5678"
   }
 ]
